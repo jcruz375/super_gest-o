@@ -1,0 +1,39 @@
+# Laravel
+/vendor/
+/node_modules/
+.env
+.env.*.local
+.phpunit.result.cache
+Homestead.yaml
+Homestead.json
+/.vagrant
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+/storage/logs
+/bootstrap/cache/*.php
+/vendor/composer/installed.json
+/vendor/composer/installed.php
+
+# Composer
+composer.lock
+
+# NPM/Yarn
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# IDEs e editores
+/.idea/
+/.vscode/
+/nbproject/
+/*.sublime-workspace
+/*.sublime-project
+
+# SO específicos
+.DS_Store
+Thumbs.db
